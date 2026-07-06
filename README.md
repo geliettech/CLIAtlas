@@ -4,15 +4,15 @@
 
 Stop googling the same command for the tenth time. Cmdbook collects the commands developers actually use day-to-day, organized by what you're trying to *do* rather than buried in an alphabetical list.
 
-📌 Currently a README-based reference. A searchable website version is planned — see [Roadmap](#roadmap).
+📌 Currently a README-based reference. A searchable website version is planned - see [Roadmap](#roadmap).
 
 ## Commands
 
-- 🔧 [Git](./docs/git.md) — setup, branching, syncing, undoing, stashing, history, tags
+- 🔧 [Git](./docs/git.md) - setup, branching, syncing, undoing, stashing, history, tags
 - 📦 [npm](./docs/npm.md)
 - 📦 [pnpm](./docs/pnpm.md)
 - 📦 [Yarn](./docs/yarn.md)
-- ⚖️ [Package Manager Comparison](./docs/comparison.md) — side-by-side equivalents across npm/pnpm/Yarn
+- ⚖️ [Package Manager Comparison](./docs/comparison.md) - side-by-side equivalents across npm/pnpm/Yarn
 
 ## Contributing
 
