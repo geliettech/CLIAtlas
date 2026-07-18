@@ -1,4 +1,4 @@
-# CLIAtlas - A fast, searchable reference for everyday CLI commands.
+# CLIAtlas
 
 ![Git](https://img.shields.io/badge/Git-Commands-orange) ![npm](https://img.shields.io/badge/npm-Commands-red) ![pnpm](https://img.shields.io/badge/pnpm-Commands-yellow) ![Yarn](https://img.shields.io/badge/Yarn-Commands-blue) ![License](https://img.shields.io/badge/License-MIT-green)
 
