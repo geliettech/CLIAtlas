@@ -11,7 +11,7 @@ Thanks for considering a contribution! CLI Command Book stays useful because peo
 
 ## How to Contribute
 
-### Small fixes (typos, a command or two)
+### Small fixes (add command, Improve description or Fix error)
 
 1. **Fork** the repo and clone your fork locally
 2. **Create a branch** for your change:
