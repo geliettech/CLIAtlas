@@ -1,10 +1,10 @@
 # Git Commands
 
-Part of [Cmdbook](../README.md).
+Part of [CLI Command Book](../README.md).
 
 ## Table of Contents
 
-- [What is Git Commands?](#what-is-git-commands?)
+- [What is Git?](#what-is-git)
 - [Setup & Config](#setup--config)
 - [Starting a Project](#starting-a-project)
 - [Staging & Committing](#staging--committing)
@@ -17,8 +17,9 @@ Part of [Cmdbook](../README.md).
 
 ---
 
-## What is Git Commands?
-....
+## What is Git?
+
+Git is a distributed version control system used to track changes in source code during software development. It lets you save snapshots of your project (commits), work on isolated lines of development (branches), and sync your work with others via remote repositories like GitHub.
 
 ## Setup & Config
 
@@ -59,7 +60,7 @@ Part of [Cmdbook](../README.md).
 | `git switch <branch>` | Switch branches (modern alternative to checkout) |
 | `git switch -c <branch>` | Create and switch to a new branch |
 | `git branch -d <branch>` | Delete a branch locally (safe) |
-| `git push origin --delete <branch>` | Delete a branch Remotely (safe) |
+| `git push origin --delete <branch>` | Delete a branch remotely (safe) |
 | `git branch -D <branch>` | Force delete a branch |
 | `git merge <branch>` | Merge a branch into the current one |
 | `git rebase <branch>` | Reapply commits on top of another branch |
@@ -71,6 +72,7 @@ Part of [Cmdbook](../README.md).
 |---|---|
 | `git remote -v` | List remotes |
 | `git remote add origin <url>` | Add a remote |
+| `git remote set-url origin <url>` | Change the URL of an existing remote (e.g. after renaming a repo) |
 | `git fetch` | Download changes without merging |
 | `git pull` | Fetch + merge from remote |
 | `git pull --rebase` | Fetch + rebase instead of merge |
@@ -89,7 +91,7 @@ Part of [Cmdbook](../README.md).
 | `git reset --hard HEAD~1` | Undo last commit, discard changes entirely |
 | `git revert <commit id>` | Create a new commit that undoes a previous one |
 | `git clean -fd` | Remove untracked files and directories |
-| `git cherry-pick <commit-hash>` | choose a commit from one branch and apply it into another |
+| `git cherry-pick <commit-hash>` | Choose a commit from one branch and apply it into another |
 
 ## Stashing
 
@@ -121,5 +123,5 @@ Part of [Cmdbook](../README.md).
 | `git tag -a v1.0.0 -m "message"` | Create an annotated tag |
 | `git push origin v1.0.0` | Push a specific tag |
 | `git push origin --tags` | Push all tags |
-| `git tag -d v1.0.0` | delete tag locally |
-| `git push origin -d v1.0.0` | delete tag remotely |
+| `git tag -d v1.0.0` | Delete tag locally |
+| `git push origin -d v1.0.0` | Delete tag remotely |
