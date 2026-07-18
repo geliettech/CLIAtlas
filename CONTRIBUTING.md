@@ -1,6 +1,6 @@
-# Contributing to Cmdbook
+# Contributing to CLIAtlas
 
-Thanks for considering a contribution! Cmdbook stays useful because people add the commands they actually use. Here's how to help.
+Thanks for considering a contribution! CLIAtlas stays useful because people add the commands they actually use. Here's how to help.
 
 ## Ways to Contribute
 
